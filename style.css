@@ -1,0 +1,98 @@
+*{
+margin : 0;
+padding: 0;
+box-sizing : border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+html,body {
+height: 100%;
+width:  100%;
+background-image: url(wp2589123.webp);
+background-position: center;
+background-size: cover;
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+}
+.main h1{
+    background-color: rgb(35, 23, 78);
+    color: white;
+    text-align: center;
+    padding: 1.5vw 2.1vw;
+}  
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 7vw;
+}
+
+.choice:hover{
+    background-color: black;
+    opacity: 1;
+   
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    transition: all ease .5s;
+}
+
+.choice img{
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   object-fit: cover; 
+   object-position: center;
+   cursor: pointer;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    text-transform: uppercase;
+    margin-top: 8vw;
+    margin-bottom: 2.5vw;
+ 
+}
+.score{
+    background-color: rgba(255, 255, 255, 0.491);
+    padding: 2vw 4vw;
+    border-radius: 22px;
+}
+.score-board p{
+    text-align: center;
+    font-size: 1.8vw;
+}
+.msg-container P{
+    font-size: 1.8vw;
+    background-color: rgba(255, 255, 255, 0.548);
+    color: rgb(0, 0, 0);
+    padding: 2vw 3vw;
+    border-radius: 46px;
+    cursor: pointer;
+
+}
+.msg-container p:active{
+    color: palevioletred;
+    font-size: 2vw;
+}
+.msg-container p:hover{
+    scale: .9;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+}
